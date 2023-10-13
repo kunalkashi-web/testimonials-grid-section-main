@@ -1,0 +1,137 @@
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.content{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.testimony-box {
+    border-radius: 0.5em;
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+    padding: 1rem;
+}
+
+#testimony-box1 {
+    background-color: hsl(263, 55%, 52%);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    border: 1px solid rgba(255, 255, 255, 0);
+    text-align: left;
+}
+
+.profile-pic {
+    height: 35px;
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 360px;
+
+
+}
+
+.profile-name {
+    font-size: 0.8rem;
+    font-weight: 200;
+    line-height: 1.2;
+    margin-left: 15px;
+}
+.name{
+    margin: 0%;
+    margin-bottom: 0.2rem;
+}
+
+#Verified {
+    color: hsla(0, 0%, 100%, 0.5);
+    margin: 0%;
+}
+#Verified-second-color{
+    color: hsla(217, 19%, 35%, 0.586);
+    margin: 0%;
+}
+
+.testimony-heading {
+    font-weight: 600;
+
+}
+
+.paragraph {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.2;
+
+}
+
+.full-paragraph {
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsla(0, 0%, 100%, 0.5);
+}
+
+/*BOX2*/
+#testimony-box2 {
+    background-color: hsl(217, 19%, 35%);
+}
+
+/*BOX3*/
+#testimony-box3 {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+}
+
+
+#full-paragraph3 {
+    color: hsla(217, 19%, 35%, 0.75);
+
+}
+
+/*BOX4*/
+#testimony-box4 {
+    background-color: hsl(219, 29%, 14%);
+}
+
+/*BOX5*/
+#testimony-box5 {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+}
+
+#full-paragraph5 {
+    color: hsla(217, 19%, 35%, 0.75);
+}
+
+@media (min-width:50em){
+    .content{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .grid-col-span-2{
+        grid-column: span 2;
+        
+    }
+    .testimony-box:last-child{
+        grid-column-start: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        
+    }
+    
+    }
