@@ -6,7 +6,7 @@ Challenge completed as part of practicing HTML and CSS.
 
 #Teck Stack
 
-HTML
-CSS
+HTML,
+CSS,
 JavaScript
-IP Geolocation API
+
